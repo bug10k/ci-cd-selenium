@@ -24,7 +24,7 @@ public class DemoE2ETest {
 
         @BeforeEach
         public void setUp() {
-            System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/C:\\Users\\KCM\\Desktop\\한성\\4-1\\SW설계 및 테스트(IPP)_정인상\\실습\\chromedriver_win32\\chromedriver.exe");
 //            WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
 //            options.addArguments("--headless");

@@ -84,7 +84,7 @@ function doAdd() {
 
     $.ajax({
         type: "GET",
-        url: "http://localhost:8080/api/sum?" + "a=" + operand1 + "&b=" + operand2,
+        url: "http://localhost:9090/api/sum?" + "a=" + operand1 + "&b=" + operand2,
         dataType: 'text',
         success: function (data) {
 

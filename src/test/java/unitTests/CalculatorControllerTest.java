@@ -33,7 +33,7 @@ public class CalculatorControllerTest {
     @DisplayName("간단한 덧셈 요청 처리 테스트")
     void getSumRequest() throws Exception {
         when(calculator.getSum()).thenReturn(8);
-        mvc.perform(get("http://localhost:8080/api/sum?a=15&b=31"))
+        mvc.perform(get("http://localhost:9090/api/sum?a=15&b=31"))
                 .andExpect(status().isOk())
                 .andExpect(MockMvcResultMatchers.content().string("46"));
 
